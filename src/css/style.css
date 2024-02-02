@@ -1,6 +1,7 @@
 html {
     background-color: #fefefe;
     color: #000;
+    width:100%;
 }
 
 /*** HEADER STYLING ***/
@@ -22,7 +23,7 @@ html {
 }
 
 #logo{
-    width:50%;
+    width:30%;
 }
 /*** BODY STYLING ***/
 #filtericon{
@@ -32,13 +33,23 @@ html {
 
 #TopButtonRow{
     display: grid;
-    grid-template-columns: 15% 70% 15%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 30%;
+    row-gap: 1fr;
 }
 
 #WrapImage{
-    grid-column-start:2;
-    grid-column-end:3 ;
-    grid-row-start: 1;
-    grid-row-end: 1;
+    height: 400%;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 4px 4px gray;
+    filter: brightness(80%);
+}
+
+#BurgerImage{
+    height: 400%;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 4px 4px gray;
+    filter: brightness(80%);
 }
