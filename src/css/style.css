@@ -20,10 +20,6 @@ html {
 .burgermenu{
     color: #ffffff;
 }
-
-#logo{
-    width:50%;
-}
 /*** BODY STYLING ***/
 #filtericon{
     justify-content:flex-end ;
