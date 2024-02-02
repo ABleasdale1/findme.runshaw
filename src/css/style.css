@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 html {
     background-color: #fefefe;
     color: #000;
@@ -14,8 +18,9 @@ html {
 }
 
 #logo {
-    width: 5rem;
-    height: auto;
+    margin: 5px;
+    width: 500px;
+    height: 100px;
 }
 
 .burgermenu{
