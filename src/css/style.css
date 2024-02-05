@@ -19,8 +19,7 @@ html {
 
 #logo {
     margin: 5px;
-    width: 500px;
-    height: 100px;
+    width: 50%;
 }
 
 .burgermenu{
@@ -38,22 +37,24 @@ html {
 
 #TopButtonRow{
     display: grid;
+    justify-content: center;
+    align-content: space-between;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 30%;
-    row-gap: 1fr;
+    gap: 1fr;
 }
 
 #WrapImage{
-    height: 400%;
-    width: 80%;
+    height: 270%;
+    width: 65%;
     border-radius: 10px;
     box-shadow: 4px 4px gray;
     filter: brightness(80%);
 }
 
 #BurgerImage{
-    height: 400%;
-    width: 80%;
+    height: 270%;
+    width: 65%;
     border-radius: 10px;
     box-shadow: 4px 4px gray;
     filter: brightness(80%);
