@@ -59,15 +59,14 @@ main {
     margin-bottom: 2%;
 }
 
-/* WRAP IMAGE STYLING */
-#WrapImage{
-    height: 90%;
-    width: 75%;
-    border-radius: 10px;
-    box-shadow: 4px 4px gray;
-    filter: brightness(80%);
-    animation: 0.5s;
+#WrapImage, #BurgerImage, #FridgeImage, #CafeImage, #LaptopImage, #PCImage, #BookImage, #PingPongImage{
+height: 90%;
+width: 75%;
+border-radius: 10px;
+box-shadow: 4px 4px gray;
+filter: brightness(80%);
 }
+
 #WrapImage:hover, #BurgerImage:hover, #FridgeImage:hover, #CafeImage:hover, #LaptopImage:hover, #PCImage:hover, #BookImage:hover, #PingPongImage:hover {
     cursor: pointer;
     transform: scale(1.1);
@@ -75,119 +74,3 @@ main {
     filter: brightness(100%);
 }
 
-/* BURGER IMAGE STYLING */
-#BurgerImage{
-    height: 90%;
-    width: 75%;
-    border-radius: 10px;
-    box-shadow: 4px 4px gray;
-    filter: brightness(80%);
-}
-#BurgerImage:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    box-shadow: 4px 4px green;
-    filter: brightness(100%);
-}
-
-/* FRIDGE IMAGE STYLING */
-#FridgeImage{
-    height: 90%;
-    width: 75%;
-    border-radius: 10px;
-    box-shadow: 4px 4px gray;
-    filter: brightness(80%);
-}
-#FridgeImage:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    box-shadow: 4px 4px green;
-    filter: brightness(100%);
-}
-
-/* CAFE IMAGE STYLING */
-#CafeImage{
-    height: 90%;
-    width: 75%;
-    border-radius: 10px;
-    box-shadow: 4px 4px gray;
-    filter: brightness(80%);
-}
-#CafeImage:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    box-shadow: 4px 4px green;
-    filter: brightness(100%);
-}
-
-#EquipmentGrid{
-    display: grid;
-    justify-content: center;
-    align-content: space-between;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-template-rows: repeat(50%);
-    gap: 1fr;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-/* LAPTOP IMAGE STYLING */
-#LaptopImage{
-    height: 90%;
-    width: 75%;
-    border-radius: 10px;
-    box-shadow: 4px 4px gray;
-    filter: brightness(80%);
-    animation: 0.5s;
-}
-#LaptopImage:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    box-shadow: 4px 4px green;
-    filter: brightness(100%);
-}
-
-/* PC IMAGE STYLING */
-#PCImage{
-    height: 90%;
-    width: 75%;
-    border-radius: 10px;
-    box-shadow: 4px 4px gray;
-    filter: brightness(80%);
-}
-#PCImage:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    box-shadow: 4px 4px green;
-    filter: brightness(100%);
-}
-
-/* BOOK IMAGE STYLING */
-#BookImage{
-    height: 90%;
-    width: 75%;
-    border-radius: 10px;
-    box-shadow: 4px 4px gray;
-    filter: brightness(80%);
-}
-#BookImage:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    box-shadow: 4px 4px green;
-    filter: brightness(100%);
-}
-
-/* PINGPONG IMAGE STYLING */
-#PingPongImage{
-    height: 90%;
-    width: 75%;
-    border-radius: 10px;
-    box-shadow: 4px 4px gray;
-    filter: brightness(80%);
-}
-#PingPongImage:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    box-shadow: 4px 4px green;
-    filter: brightness(100%);
-}
