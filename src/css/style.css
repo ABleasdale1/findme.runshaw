@@ -8,6 +8,10 @@ html {
     width:100%;
 }
 
+main {
+    margin: 2% 5%;
+}
+
 /*** HEADER STYLING ***/
 .bar {
     display: flex;
@@ -43,7 +47,7 @@ html {
 }
 
 
-#FoodItemsGrid{
+#FoodItemsGrid, #EquipmentGrid{
     display: grid;
     justify-content: center;
     align-content: space-between;
@@ -57,13 +61,14 @@ html {
 
 /* WRAP IMAGE STYLING */
 #WrapImage{
+    height: 90%;
     width: 75%;
     border-radius: 10px;
     box-shadow: 4px 4px gray;
     filter: brightness(80%);
     animation: 0.5s;
 }
-#WrapImage:hover{
+#WrapImage:hover, #BurgerImage:hover, #FridgeImage:hover, #CafeImage:hover, #LaptopImage:hover, #PCImage:hover, #BookImage:hover, #PingPongImage:hover {
     cursor: pointer;
     transform: scale(1.1);
     box-shadow: 4px 4px green;
@@ -72,6 +77,7 @@ html {
 
 /* BURGER IMAGE STYLING */
 #BurgerImage{
+    height: 90%;
     width: 75%;
     border-radius: 10px;
     box-shadow: 4px 4px gray;
@@ -86,6 +92,7 @@ html {
 
 /* FRIDGE IMAGE STYLING */
 #FridgeImage{
+    height: 90%;
     width: 75%;
     border-radius: 10px;
     box-shadow: 4px 4px gray;
@@ -100,6 +107,7 @@ html {
 
 /* CAFE IMAGE STYLING */
 #CafeImage{
+    height: 90%;
     width: 75%;
     border-radius: 10px;
     box-shadow: 4px 4px gray;
@@ -125,6 +133,7 @@ html {
 
 /* LAPTOP IMAGE STYLING */
 #LaptopImage{
+    height: 90%;
     width: 75%;
     border-radius: 10px;
     box-shadow: 4px 4px gray;
@@ -140,6 +149,7 @@ html {
 
 /* PC IMAGE STYLING */
 #PCImage{
+    height: 90%;
     width: 75%;
     border-radius: 10px;
     box-shadow: 4px 4px gray;
@@ -154,6 +164,7 @@ html {
 
 /* BOOK IMAGE STYLING */
 #BookImage{
+    height: 90%;
     width: 75%;
     border-radius: 10px;
     box-shadow: 4px 4px gray;
@@ -168,6 +179,7 @@ html {
 
 /* PINGPONG IMAGE STYLING */
 #PingPongImage{
+    height: 90%;
     width: 75%;
     border-radius: 10px;
     box-shadow: 4px 4px gray;
