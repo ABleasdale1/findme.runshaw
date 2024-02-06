@@ -3,7 +3,7 @@
 }
 
 html {
-    background-color: #fefefe;
+    background-color: #fff;
     color: #000;
     width:100%;
 }
@@ -18,7 +18,10 @@ main {
     justify-content: space-between;
     background-color: #e63312;
     color: #fff;
-    /* height: 3rem; */
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+    border-radius: 10px;
 }
 
 #logo {
@@ -28,6 +31,8 @@ main {
 
 .burgermenu{
     color: #ffffff;
+    margin-top: 3%;
+    margin-right: 2%;
 }
 
 #logo{
@@ -49,27 +54,30 @@ main {
 
 #FoodItemsGrid, #EquipmentGrid{
     display: grid;
-    justify-content: center;
-    align-content: space-between;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-template-rows: 100%;
     gap: 1fr;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 2%;
+    padding: 2%;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: #D9DDDC;
 }
 
 #WrapImage, #BurgerImage, #FridgeImage, #CafeImage, #LaptopImage, #PCImage, #BookImage, #PingPongImage{
 height: 90%;
 width: 75%;
 border-radius: 10px;
+margin-left: 12%;
 box-shadow: 4px 4px gray;
 filter: brightness(80%);
 }
 
 #WrapImage:hover, #BurgerImage:hover, #FridgeImage:hover, #CafeImage:hover, #LaptopImage:hover, #PCImage:hover, #BookImage:hover, #PingPongImage:hover {
     cursor: pointer;
-    transform: scale(0.9);
+    transform: scale(1.1);
     box-shadow: 4px 4px green;
     filter: brightness(100%);
 }
