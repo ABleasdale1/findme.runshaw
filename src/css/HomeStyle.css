@@ -40,14 +40,14 @@ main {
 }
 
 #Headings{
-    font-family: helvetica;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 140%;
     margin-bottom: 2%;
     margin-left: 2%;
 }
 
 
-#FoodItemsGrid, #EquipmentGrid{
+#FoodItemsGrid, #EquipmentGrid {
     display: grid;
     justify-content: center;
     align-content: space-between;
@@ -59,15 +59,16 @@ main {
     margin-bottom: 2%;
 }
 
-#WrapImage, #BurgerImage, #FridgeImage, #CafeImage, #LaptopImage, #PCImage, #BookImage, #PingPongImage{
-height: 90%;
-width: 75%;
-border-radius: 10px;
-box-shadow: 4px 4px gray;
-filter: brightness(80%);
+.FoodImg, .EquipmentImg {
+    height: 90%;
+    width: 75%;
+    border-radius: 10px;
+    box-shadow: 4px 4px gray;
+    filter: brightness(80%);
+    transition: 0.6s;
 }
 
-#WrapImage:hover, #BurgerImage:hover, #FridgeImage:hover, #CafeImage:hover, #LaptopImage:hover, #PCImage:hover, #BookImage:hover, #PingPongImage:hover {
+.FoodImg:hover, .EquipmentImg:hover {
     cursor: pointer;
     transform: scale(0.9);
     box-shadow: 4px 4px green;
