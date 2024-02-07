@@ -78,7 +78,7 @@ main {
 
 .FoodImg:hover, .EquipmentImg:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(0.9);
     box-shadow: 4px 4px green;
     filter: brightness(100%);
 }
