@@ -61,9 +61,6 @@ main {
     margin-right: 10%;
     margin-bottom: 2%;
     padding: 2%;
-    border-style: solid;
-    border-radius: 20px;
-    background-color: #D9DDDC;
 }
 
 .FoodImg, .EquipmentImg {
